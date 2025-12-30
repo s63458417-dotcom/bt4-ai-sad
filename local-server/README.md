@@ -26,7 +26,7 @@ This folder contains the local browser automation server that runs on your compu
    npm start
    ```
 
-   The server will run on `http://localhost:3001`
+   The server will run on `http://localhost:20252`
 
 ## What This Does
 

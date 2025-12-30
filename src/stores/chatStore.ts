@@ -66,7 +66,7 @@ export const useChatStore = create<ChatState>((set, get) => ({
   activeChatId: null,
   isLoading: false,
   isSidebarOpen: false,
-  localServerUrl: 'http://localhost:3001',
+  localServerUrl: 'http://localhost:20252',
   isLocalServerConnected: false,
 
   createChat: () => {

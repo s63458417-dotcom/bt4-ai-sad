@@ -42,12 +42,6 @@ export function ChatArea() {
             <span>{isLocalServerConnected ? 'Connected' : 'Local server offline'}</span>
           </div>
         </div>
-          <button
-            onClick={checkLocalServer}
-            className="px-3 py-1 bg-primary text-primary-foreground rounded-md text-xs hover:bg-primary/90 transition-colors"
-          >
-            Connect
-          </button>
         
         <div className="flex items-center gap-2">
           <button
